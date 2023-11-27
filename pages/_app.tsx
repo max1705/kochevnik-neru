@@ -41,6 +41,10 @@ function MyApp({ Component, pageProps }: AppProps) {
           name="viewport"
           content="initial-scale=1.0, width=device-width"
         />
+        <meta 
+          name="yandex-verification" 
+          content="ce3c6df57778fa42" 
+        />
       </Head>
       <Layout>
         <Component {...pageProps} />
