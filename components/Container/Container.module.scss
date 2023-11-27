@@ -1,0 +1,12 @@
+@import '../../styles/variables.scss';
+
+.container {
+  max-width: calc(1320px + var(--container-padding) * 2);
+  padding: 0 var(--container-padding);
+  width: 100%;
+  margin: 0 auto;
+
+  @media screen and (max-width: $laptopBreakpointMax) {
+    max-width: calc(1070px + var(--container-padding) * 2);
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Cart",
+  "subtitle": "Your order",
+  "emptyCart": "Cart is empty",
+  "clearButton": "Clear cart",
+  "count": "Amount",
+  "total": "Total: ",
+  "currency": "Rub",
+  "paymentOption": "Cash payment",
+  "courierOption": "Pickup",
+  "courierOptionEntrance": "Courier delivery to entrance (+200 Rub)",
+  "courierOptionApartment": "Courier delivery to apartment (+250 Rub)",
+  "alert": "The application has been sent. Wait for a call to confirm your order.",
+  "form": {
+    "feedbackPhone": "Phone number",
+    "feedbackAddress": "Address",
+    "feedbackDesc": "Commentary",
+    "feedbackButton": "Make an order",
+    "feedback": {
+      "required": "Requirement field",
+      "phone": "Incorrect phone number",
+      "address": "Incorrect address"
+    }}
+}

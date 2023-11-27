@@ -1,0 +1,11 @@
+{
+  "title": "About",
+  "form": {
+    "infoTitle": "Kochevnik",
+    "addressTitle": "Address:",
+    "addressText": "Neryungri city, \n Karla Marksa st., 9",
+    "phoneTitle": "Phone number:",
+    "worktimeTitle": "Working hours:",
+    "worktimeText": "Daily from 10 a.m. to 7 p.m."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "short_name": "Kochevnik",
+  "name": "Kochevnik",
+  "start_url": ".",
+  "display": "browser",
+  "icons": [
+    {
+      "src": "kochevnik_icon.svg",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "kochevnik_icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "kochevnik_icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

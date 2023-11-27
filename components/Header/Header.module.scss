@@ -1,0 +1,99 @@
+@import '../../styles/variables.scss';
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid $bgGrey;
+
+  @media screen and (max-width: $tabletBreakpointMax) {
+    padding-top: 18px;
+  }
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+}
+
+.headerRight {
+  width: 30px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 60px;
+
+  @media screen and (max-width: $mobileBreakpointMax) {
+    margin-right: 30px;
+  }
+}
+
+.logoText {
+  margin-left: 8px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+
+  @media screen and (max-width: $mobileBreakpointMax) {
+    display: none;
+  }
+}
+
+.links {
+  display: flex;
+  gap: 16px;
+}
+
+.link {
+  margin-right: 35px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  @media screen and (max-width: $mobileBreakpointMax) {
+    margin-right: 30px;
+  }
+}
+
+:root[data-theme='light'] {
+  .header {
+    border-bottom: 2px solid $orangeHover;
+  }
+
+  .activeLink {
+    color: $textBlueColor;
+  }
+
+  .link:hover {
+    color: $blueHover;
+  }
+}
+
+.animatedLogo {
+  display: block;
+}
+
+.activeLink {
+  text-decoration: underline;
+  color: $textOrangeColor;
+  font-weight: 700;
+}
+
+.link:hover {
+  color: $orangeHover;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  column-gap: 12px; // TODO - change to margin-right for Safari 13
+}

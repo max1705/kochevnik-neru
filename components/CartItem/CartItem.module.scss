@@ -1,0 +1,110 @@
+@import '../../styles/variables.scss';
+
+:root[data-theme='light'] {
+  .cartImageBlock {
+    border: 1px solid rgba(196, 199, 205, 0.1);
+    background-color: rgba(90, 92, 94, 0.4);
+  }
+  .cart {
+    border-bottom: 1px solid $textOrangeColor;
+  }
+  .cartDeleteButton {
+    color: $textMainColor;
+  }
+}
+
+.cart {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px 10px;
+  position: relative;
+  overflow: visible;
+  row-gap: 10px;
+  border-bottom: 1px solid $bgGrey;
+  align-items: center;
+  @media screen and (max-width: $tabletBreakpointMax) {
+    flex-direction: column;
+    align-items: baseline;
+  }
+}
+
+.cartImageBlock {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border: 1px solid rgba(196, 199, 205, 0.1);
+  border-radius: $borderRadiusProjectBlock;
+  background-color: rgba(90, 92, 94, 0.1);
+}
+
+.cartDescBlock {
+  color: $textGreyColor;
+  font-size: 12px;
+}
+
+.cartPriceBlock {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+  @media screen and (max-width: $tabletBreakpointMax) {
+    width: 100%;
+  }
+}
+
+.cartButton {
+  background-color: $textOrangeColor;  
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.cartDeleteButton {  
+  background: $textOrangeColor;
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  &:hover {
+    background-color: $orangeHover;
+  }
+}
+
+@mixin startProjectSlideState {
+  position: absolute;
+  opacity: 0;
+  top: 100%;
+  pointer-events: none;
+  transition: 0.4s ease-in-out;
+}
+
+@mixin endProjectSlideState {
+  position: absolute;
+  opacity: 1;
+  top: 0;
+  pointer-events: none;
+  transition: 0.4s ease-in-out;
+}
+.cartSlideEnter {
+  @include startProjectSlideState;
+}
+
+.cartSlideEnterActive {
+  @include endProjectSlideState;
+}
+
+.cartSlideExit {
+  @include endProjectSlideState;
+}
+
+.cartSlideExitActive {
+  @include startProjectSlideState;
+}

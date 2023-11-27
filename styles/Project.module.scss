@@ -1,0 +1,50 @@
+@import './variables.scss';
+
+.project {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgb(0, 0, 0, 0.7);
+  z-index: 2;
+}
+
+.projectBlock {
+  width: 80vw;
+  height: 90vh;
+  background: #fff;
+  margin: 35px auto;
+  border-radius: 20px;
+  padding: 25px;
+}
+
+.projectTitleBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 0;
+}
+
+.projectTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  color: $textOrangeColor;
+  margin: 0;
+}
+
+.projectButtons {
+  display: flex;
+  column-gap: 26px;
+}
+
+.projectButton {
+  background-color: $textOrangeColor;
+  border: none;
+  border-radius: 20px;
+  color: $textMainColorLight;
+  padding: 10px 20px;
+  cursor: pointer;
+}

@@ -1,0 +1,49 @@
+@import '../../styles/variables.scss';
+
+.switch {
+  position: absolute;
+  width: 60px;
+  height: 29px;
+  transform: translate(-50%, -50%);
+  input {
+    display: none;
+  }
+  .slider {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid $textBlueColor;
+    cursor: pointer;
+    transition: all 1.4s;
+    &:before,
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 2px;
+      left: 5px;
+      width: 22px;
+      height: 22px;
+      background-color: $textBlueColor;
+      border-radius: 30px;
+    }
+    &:before {
+      transition: 0.4s;
+    }
+    &:after {
+      transition: 0.5s;
+    }
+  }
+  input:checked + .slider {
+    border: 1px solid $textOrangeColor;
+    &:before,
+    &:after {
+      transform: translateX(25px);
+      background-color: $textOrangeColor;
+    }
+  }
+}

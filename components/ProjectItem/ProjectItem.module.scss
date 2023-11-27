@@ -1,0 +1,150 @@
+@import '../../styles/variables.scss';
+
+:root[data-theme='light'] {
+  .projectImageBlock {
+    border: 1px solid rgba(196, 199, 205, 0.1);
+    background-color: rgba(90, 92, 94, 0.4);
+  }
+
+  .projectButton, .projectCount {
+    color: $textMainColor;
+  }
+
+  .projectButtonAdd {
+    border-left: 1px solid $bgWhite;
+    color: $textMainColor;
+  }
+  .projectButtonDelete {
+    border-right: 1px solid $bgWhite;
+    color: $textMainColor;
+  }
+  .snackbar {
+    background-color: $textBlueColor !important;
+  }
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  max-width: $widthProjectBlock;
+  width: 100%;
+  position: relative;
+  overflow: visible;
+  border-radius: $borderRadiusProjectBlock;
+  row-gap: 10px;
+}
+
+.projectImageBlock {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(196, 199, 205, 0.1);
+  border-radius: $borderRadiusProjectBlock;
+  background-color: rgba(90, 92, 94, 0.1);
+  cursor: pointer;
+  transition: transform 1s;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.projectTitleBlock {
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+    color: $orangeHover;
+  }
+}
+
+.projectDescBlock {
+  color: $textGreyColor;
+  font-size: 12px;
+}
+
+.projectPriceBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projectButtonBlock {
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  min-width: 100px;
+}
+
+.projectCount {
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: $textOrangeColor;
+}
+
+.projectButton {
+  height: 100%;
+  padding: 10px 20px;
+  background-color: $textOrangeColor;
+  border-radius: 50px;
+  &:hover {
+    background-color: $orangeHover;
+  }
+}
+.projectButtonAdd {
+  height: 100%;
+  padding: 10px 20px;
+  border-left: 1px solid $bgBlack;
+  background-color: $textOrangeColor;
+  border-radius: 0 50px 50px 0;
+  &:hover {
+    background-color: $orangeHover;
+  }
+
+}
+.projectButtonDelete {
+  height: 100%;
+  padding: 10px 20px;
+  border-right: 1px solid $bgBlack;
+  background-color: $textOrangeColor;
+  border-radius: 50px 0 0 50px;
+  &:hover {
+    background-color: $orangeHover;
+  }
+}
+
+.snackbar {
+  background-color: $textOrangeColor !important;
+  color: $textWhiteColor !important;
+}
+@mixin startProjectSlideState {
+  position: absolute;
+  opacity: 0;
+  top: 100%;
+  pointer-events: none;
+  transition: 0.4s ease-in-out;
+}
+
+@mixin endProjectSlideState {
+  position: absolute;
+  opacity: 1;
+  top: 0;
+  pointer-events: none;
+  transition: 0.4s ease-in-out;
+}
+
+.projectSlideEnter {
+  @include startProjectSlideState;
+}
+
+.projectSlideEnterActive {
+  @include endProjectSlideState;
+}
+
+.projectSlideExit {
+  @include endProjectSlideState;
+}
+
+.projectSlideExitActive {
+  @include startProjectSlideState;
+}

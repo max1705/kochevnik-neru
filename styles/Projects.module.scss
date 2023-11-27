@@ -1,0 +1,63 @@
+@import './variables.scss';
+
+$border: 1px solid rgba(220, 223, 230, 0.1);
+$borderRadius: 8px;
+
+:root[data-theme='light'] {
+  .topButton {
+    color: $textMainColor;
+  }
+}
+
+.projects {
+  display: grid;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin: 0 0 92px 0;
+  grid-template-columns: repeat(auto-fit, minmax($widthProjectBlock, 0fr));
+
+  @media screen and (max-width: $mobileBreakpointMax) {
+    grid-template-columns: none;
+  }
+}
+
+.logoBlock {
+  text-align: center;
+  padding: 20px;
+  img {
+    border-radius: 8px;
+    min-height: 150px;
+    @media screen and (max-width: $mobileBreakpointMax) {
+      height: 150px;
+    }
+  }
+}
+
+.topButton {
+  position: fixed;
+  bottom: 12px;
+  right: 12px;
+  background-color: $textOrangeColor;
+  z-index: 1;
+  padding: 10px;
+  border-radius: 20px;
+  opacity: 0.5;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.links:hover {
+  color: $orangeHover;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  padding: 0;
+  justify-content: center;
+}
+

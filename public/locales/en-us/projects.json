@@ -1,0 +1,287 @@
+{
+  "title": "Menu",
+  "topButton": "Top",
+  "addToCart": "Add to cart",
+  "alert": "The product has been added to the cart.",
+  "menu": {
+    "businessLunch": "Business-Lunch",
+    "firstСourse": "First Сourse",
+    "secondСourse": "Second Сourse",
+    "dishInPan": "Dish in pan",
+    "bakery": "Bakery",
+    "beverages": "Drinks",
+    "salad": "Salads",
+    "semiFinishedProducts": "Semi Finished Products",
+    "pizza": "Pizza"
+  },
+  "businessLunch1": {
+    "title": "Business-Lunch 1",
+    "desc": "Vinaigrette, solyanka, French meat, rice with vegetables",
+    "price": "600 Rub"
+  },
+  "businessLunch2": {
+    "title": "Business-Lunch 2",
+    "desc": "Korean carrots, homemade noodle soup, steak with egg, rice with vegetables",
+    "price": "600 Rub"
+  },
+  "firstСourse1": {
+    "title": "Homemade noodle soup 450g",
+    "desc": "Beef, homemade noodles",
+    "price": "230 Rub"
+  },
+  "firstСourse2": {
+    "title": "Beef buchler 500g",
+    "desc": "Beef, onion, potatoes",
+    "price": "330 Rub"
+  },
+  "firstСourse3": {
+    "title": "Pelmeni 200g",
+    "desc": "Beef, pork, onion",
+    "price": "210 Rub"
+  },
+  "firstСourse4": {
+    "title": "Solyanka 450g",
+    "desc": "Beef, brisket, smoked sausage, potatoes, pickled cucumber, olives, tomato, lemon",
+    "price": "230 Rub"
+  },
+  "firstСourse5": {
+    "title": "Lagman 450g",
+    "desc": "Beef, noodles, potatoes, bell pepper, onion, tomato",
+    "price": "240 Rub"
+  },
+  "firstСourse6": {
+    "title": "Genghis Khan 450g",
+    "desc": "Lamb, pelmeni",
+    "price": "330 Rub"
+  },
+  "firstСourse7": {
+    "title": "Bayan Khoto 450g",
+    "desc": "Beef, homemade noodles, pelmeni",
+    "price": "280 Rub"
+  },
+  "firstСourse8": {
+    "title": "Okroshka 400g",
+    "desc": "Beef meat, boiled sausage, fresh cucumbers, radishes, potatoes, egg, mayonnaise, greens",
+    "price": "250 Rub"
+  },
+  "secondСourse1": {
+    "title": "Buuz 1pc 75g",
+    "desc": "Beef, pork, onion",
+    "price": "62 Rub"
+  },
+  "secondСourse2": {
+    "title": "Tsuivan 220g",
+    "desc": "Beef, homemade noodles, bell pepper, carrots, soy sauce, chili",
+    "price": "240 Rub"
+  },
+  "secondСourse3": {
+    "title": "Thai meat with potatoes 300g",
+    "desc": "Pork, potatoes, bell peppers, carrots, onions, soy sauce",
+    "price": "260 Rub"
+  },
+  "secondСourse4": {
+    "title": "Beefsteak with egg 100g",
+    "desc": "",
+    "price": "240 Rub"
+  },
+  "secondСourse5": {
+    "title": "French meat 100g",
+    "desc": "Pork, champignons, onions, mayonnaise, cheese",
+    "price": "240 Rub"
+  },
+  "secondСourse6": {
+    "title": "Pasta Bolognese 330g",
+    "desc": "Homemade noodles, minced pork + beef, cheese, tomato paste, ketchup",
+    "price": "290 Rub"
+  },
+  "secondСourse7": {
+    "title": "Pasta Carbonara 270g",
+    "desc": "Noodles, bacon, cream, cheese",
+    "price": "290 Rub"
+  },
+  "secondСourse8": {
+    "title": "French fries 120g",
+    "desc": "",
+    "price": "180 Rub"
+  },
+  "secondСourse9": {
+    "title": "Rice with vegetables 150g",
+    "desc": "Rice, bell pepper, carrots, canned peas",
+    "price": "90 Rub"
+  },
+  "dishInPan1": {
+    "title": "Kochevnik (Nomad) 350г",
+    "desc": "Lamb ribs, potatoes, onions, spices",
+    "price": "370 Rub"
+  },
+  "dishInPan2": {
+    "title": "Roast in a frying pan 350g",
+    "desc": "Pork, eggplant, potatoes, onions, cream",
+    "price": "370 Rub"
+  },
+  "dishInPan3": {
+    "title": "Ustaliy Putnik (Tired Traveler) 350g",
+    "desc": "Beef, potatoes, bell peppers, onions, cream",
+    "price": "370 Rub"
+  },
+  "dishInPan4": {
+    "title": "Chicken breast with vegetables 280g",
+    "desc": "Chicken breast, bell pepper, eggplant, green beans, soy sauce",
+    "price": "320 Rub"
+  },
+  "dishInPan5": {
+    "title": "Teriyaki chicken 280g",
+    "desc": "Chicken, potatoes, teriyaki sauce, sesame",
+    "price": "320 Rub"
+  },
+  "bakery1": {
+    "title": "Chebureki 1шт",
+    "desc": "",
+    "price": "120 Rub"
+  },
+  "bakery2": {
+    "title": "Pancakes stuffed with meat 110g",
+    "desc": "",
+    "price": "90 Rub"
+  },
+  "bakery3": {
+    "title": "Pancakes with condensed milk 2pcs",
+    "desc": "",
+    "price": "50 Rub"
+  },
+  "bakery4": {
+    "title": "Pancakes with jam 2pcs",
+    "desc": "",
+    "price": "50 Rub"
+  },
+  "bakery5": {
+    "title": "Pancakes with sour cream 2pcs",
+    "desc": "",
+    "price": "50 Rub"
+  },
+  "bakery6": {
+    "title": "Bread 1pc",
+    "desc": "",
+    "price": "5 Rub"
+  },
+  "bakery7": {
+    "title": "Khuushuur 2pcs",
+    "desc": "Beef, pork, onion deep fried",
+    "price": "150 Rub"
+  },
+  "beverages1": {
+    "title": "Cowberry fruit drink 1l",
+    "desc": "",
+    "price": "220 Rub"
+  },
+  "beverages2": {
+    "title": "Dried fruit compote 1l",
+    "desc": "",
+    "price": "180 Rub"
+  },
+  "salad1": {
+    "title": "Caesar salad with chicken 170g",
+    "desc": "Lettuce, chicken, tomato, crackers, cheese, sauce",
+    "price": "250 Rub"
+  },
+  "salad2": {
+    "title": "Greek salad 200g",
+    "desc": "Lettuce, tomato, cucumbers, bell pepper, fetax cheese, olives, onion, vegetable oil",
+    "price": "270 Rub"
+  },
+  "salad3": {
+    "title": "Warm salad 250g",
+    "desc": "Beef, bell pepper, onion, carrot, fresh cucumber, spices",
+    "price": "290 Rub"
+  },
+  "salad4": {
+    "title": "Korean carrots 100g",
+    "desc": "Carrots, garlic, onions, spices",
+    "price": "70 Rub"
+  },
+  "salad5": {
+    "title": "Beetroot salad 100g",
+    "desc": "Beetroot, garlic, mayonnaise",
+    "price": "70 Rub"
+  },
+  "salad6": {
+    "title": "Cellophane noodles 100g",
+    "desc": "Cellophane noodles, bell pepper, carrots, fresh cucumber, garlic, spices",
+    "price": "70 Rub"
+  },
+  "salad7": {
+    "title": "Vinegret 100g",
+    "desc": "Potatoes, beets, pickled cucumber, carrots, onions",
+    "price": "80 Rub"
+  },
+  "salad8": {
+    "title": "Polish cucumbers 110g",
+    "desc": "Fresh cucumber, garlic, dill, salt, pepper, vegetable oil",
+    "price": "80 Rub"
+  },
+  "salad9": {
+    "title": "Country-style salad with herring 150g",
+    "desc": "Potatoes, herring, onions, green peas, butter",
+    "price": "80 Rub"
+  },
+  "salad10": {
+    "title": "Snack Salad 120g",
+    "desc": "Smoked sausage, cheese, fresh cucumber, mayonnaise",
+    "price": "80 Rub"
+  },
+  "semiFinishedProducts1": {
+    "title": "Buuz frozen 75g",
+    "desc": "",
+    "price": "58 Rub"
+  },
+  "semiFinishedProducts2": {
+    "title": "Pelmeni frozen 1kg",
+    "desc": "",
+    "price": "500 Rub"
+  },
+  "pizza1": {
+    "title": "Pepperoni 700g",
+    "desc": "Salami, mozzarella cheese, tomatoes, olives, tomato sauce",
+    "price": "750 Rub"
+  },
+  "pizza2": {
+    "title": "Hunting 750g",
+    "desc": "Hunting sausages, chicken, pickled cucumbers, mushrooms, tomatoes, mozzarella cheese, onions",
+    "price": "800 Rub"
+  },
+  "pizza3": {
+    "title": "Kochevnik (Nomad) Specialty 950g",
+    "desc": "Chicken fillet, hunting sausages, bacon, salami, ham, bell pepper, olives, pickled cucumbers, tomatoes, onions, mozzarella cheese",
+    "price": "900 Rub"
+  },
+  "pizza4": {
+    "title": "Diablo 750g",
+    "desc": "Salami, carbonate, mozzarella cheese, tomatoes, champignons, onions, chili, tomato sauce",
+    "price": "800 Rub"
+  },
+  "pizza5": {
+    "title": "Ham and mushrooms 700g",
+    "desc": "Ham, mushrooms, tomatoes, onions, mozzarella cheese, tomato sauce",
+    "price": "700 Rub"
+  },
+  "pizza6": {
+    "title": "4 seasons 700g",
+    "desc": "Salami, chicken fillet, ham, raw smoked sausage, carbonate, tomatoes, olives, mushrooms, onions, chili, pineapples, mozzarella cheese, tomato sauce",
+    "price": "750 Rub"
+  },
+  "pizza7": {
+    "title": "Hawaiian 700g",
+    "desc": "Chicken fillet, ham, pineapples, mozzarella cheese, tomato sauce",
+    "price": "700 Rub"
+  },
+  "hachapuri1": {
+    "title": "Khachapuri 250g",
+    "desc": "Dough, cheese",
+    "price": "190 Rub"
+  },
+  "hachapuri2": {
+    "title": "Khachapuri with ham 350g",
+    "desc": "Dough, cheese, ham",
+    "price": "310 Rub"
+  }
+}

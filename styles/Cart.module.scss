@@ -1,0 +1,110 @@
+@import './variables.scss';
+
+.contacts {
+  margin: 16px 0 0;
+  display: flex;
+
+  @media screen and (max-width: $tabletBreakpointMax) {
+    display: block;
+  }
+}
+
+.mainInfo {
+  width: 100%;
+}
+
+.infoBlock {
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.empty {
+  text-align: center;
+}
+
+.clearCartButton {
+  background-color: $textOrangeColor;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  min-width: 100px;
+  padding: 10px 20px;
+  position: absolute;
+  right: 0;
+  top: -55px;
+  &:hover {
+    background-color: $orangeHover;
+  }
+}
+
+.total {  
+  text-align: end;
+  padding: 20px 0 0;
+  font-weight: bold;
+}
+
+.sumList {
+  display: none;
+}
+
+:root[data-theme='light'] {
+  .infoTitle {
+    color: $textBlueColor;
+  }
+  .bigLogo {
+    display: none;
+  }
+  .clearCartButton {
+    color: $textMainColor;
+  }
+}
+
+.orderList {
+  width: 100%;
+  min-height: 100px;
+  margin: 0 0 25px;
+  position: relative;
+}
+
+.infoTitle {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  color: $textOrangeColor;
+  margin-bottom: 12px;
+}
+
+.infoText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  white-space: pre-line;
+}
+
+.infoParagraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  margin: 0;
+  text-indent: 17px;
+}
+
+.bigLogo {
+  opacity: 0.3;
+  position: absolute;
+  left: 0;
+  bottom: 150px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  pointer-events: none;
+
+  @media screen and (max-width: $tabletBreakpointMax) {
+    padding: 0 var(--container-padding) 0;
+    opacity: 0.15;
+  }
+}

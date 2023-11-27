@@ -1,0 +1,11 @@
+{
+  "title": "О нас",
+  "form": {
+    "infoTitle": "Кочевник",
+    "addressTitle": "Адрес:",
+    "addressText": "г. Нерюнгри, \n ул. Карла Маркса, д. 9",
+    "phoneTitle": "Телефон:",
+    "worktimeTitle": "Режим работы:",
+    "worktimeText": "Ежедневно с 10:00 до 19:00"
+  }
+}

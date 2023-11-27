@@ -1,0 +1,218 @@
+@import './variables.scss';
+
+:root[data-theme='light'] {
+  body {
+    background-color: $bgWhite;
+  }
+  html,
+  body {
+    color: $textMainColorLight;
+  }
+  .kochevnikLink {
+    &:hover {
+      color: $blueHover;
+    }
+  }
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  font-family: Ubuntu, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Cantarell,
+    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: $textMainColor;
+  font-size: 16px;
+}
+
+body {
+  background-color: $bgBlack;
+}
+
+html,
+body,
+#__next {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Normalize CSS */
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  background-color: transparent;
+}
+
+img {
+  border-style: none;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button {
+  text-transform: none;
+}
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type='button']::-moz-focus-inner,
+[type='reset']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring,
+[type='button']:-moz-focusring,
+[type='reset']:-moz-focusring,
+[type='submit']:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type='checkbox'],
+[type='radio'] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type='search'] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type='search']::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+[hidden] {
+  display: none;
+}
+
+/* Fonts */
+
+@font-face {
+  font-family: Ubuntu;
+  src: url('../public/fonts/Ubuntu-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url('../public/fonts/Ubuntu-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url('../public/fonts/Ubuntu-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url('../public/fonts/Ubuntu-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url('../public/fonts/Ubuntu-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url('../public/fonts/Ubuntu-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url('../public/fonts/Ubuntu-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url('../public/fonts/Ubuntu-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: italic;
+}
+
+/* Root */
+
+:root {
+  --container-padding: 30px;
+
+  @media screen and (max-width: $tabletBreakpointMax) {
+    --container-padding: 24px;
+  }
+
+  @media screen and (max-width: $mobileBreakpointMax) {
+    --container-padding: 20px;
+  }
+}
+
+.kochevnikLink {
+  text-decoration: underline;
+
+  &:hover {
+    color: $orangeHover;
+  }
+}

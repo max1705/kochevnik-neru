@@ -1,0 +1,48 @@
+@import './variables.scss';
+
+@media screen and (min-width: ($tabletLgBreakpointMax + 0.02px)) {
+  .kochevnikAnimation {
+    $kochevnikAnimationMinDelay: 0.16s;
+    --kochevnik-animation-delay-factor: 1;
+
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+    animation-delay: calc(var(--kochevnik-animation-delay-factor) * $kochevnikAnimationMinDelay);
+  }
+
+  .kochevnikAnimation--fadeIn {
+    animation-name: kochevnikFadeIn;
+  }
+
+  .kochevnikAnimation--fadeInUp {
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    animation-name: kochevnikFadeInUp;
+  }
+
+  @keyframes kochevnikFadeIn {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes kochevnikFadeInUp {
+    0% {
+      opacity: 0;
+      transform: translate3d(0, 100px, 0);
+      pointer-events: none;
+    }
+
+    80% {
+      pointer-events: none;
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateZ(0);
+    }
+  }
+}

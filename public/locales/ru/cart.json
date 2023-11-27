@@ -1,0 +1,24 @@
+{
+  "title": "Корзина",
+  "subtitle": "Ваш заказ",
+  "emptyCart": "Корзина пуста",
+  "clearButton": "Очистить корзину",
+  "count": "Кол-во",
+  "total": "Итого: ",
+  "currency": "Руб",
+  "paymentOption": "Оплата наличными",
+  "courierOption": "Самовывоз",
+  "courierOptionEntrance": "Доставка курьером до подъезда (+200 рублей)",
+  "courierOptionApartment": "Доставка курьером до квартиры (+250 рублей)",
+  "alert": "Заявка отправлена. Ожидайте, Вам позвонят для уточнения заказа.",
+  "form": {
+    "feedbackPhone": "Телефон",
+    "feedbackAddress": "Адрес",
+    "feedbackDesc": "Комментарий",
+    "feedbackButton": "Оформить заказ",
+    "feedback": {
+      "required": "Обязательное поле",
+      "phone": "Некорректный номер телефона",
+      "address": "Некорректный адрес"
+    }}
+}
