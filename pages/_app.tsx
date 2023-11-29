@@ -21,17 +21,17 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
         <link
           rel="icon"
-          href="/kochevnik_icon.ico"
+          href="/favicon.ico"
           sizes="any"
         />
         <link
           rel="icon"
-          href="/kochevnik_icon.svg"
+          href="/favicon.svg"
           type="image/svg+xml"
         />
         <link
           rel="apple-touch-icon"
-          href="/kochevnik_icon.png"
+          href="/favicon.png"
         />
         <link
           rel="manifest"

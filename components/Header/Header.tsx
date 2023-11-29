@@ -60,7 +60,7 @@ const Header = () => {
               >
                 <div className={styles.animatedLogo}>
                   <Image
-                    src="/kochevnik_icon.png"
+                    src="/favicon.png"
                     alt='kochevnik logo'
                     width={30}
                     height={30}
