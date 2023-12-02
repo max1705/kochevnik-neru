@@ -37,7 +37,7 @@ const ProjectMenu = ({
     <div
       className={clsx(styles.project, rootProps?.className)}
     >
-      <Link key={alt} href={`/projects/#${alt}`}>
+      <Link key={alt} href={`/menu/#${alt}`}>
         <div
           className={styles.projectImageBlock}
         >
@@ -54,7 +54,7 @@ const ProjectMenu = ({
       <div
         className={styles.projectTitleBlock}
       >
-        <Link key={alt} href={`/projects/#${alt}`}>
+        <Link key={alt} href={`/menu/#${alt}`}>
           {title}
         </Link>
       </div>
