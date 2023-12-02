@@ -45,6 +45,10 @@ function MyApp({ Component, pageProps }: AppProps) {
           name="yandex-verification" 
           content="ce3c6df57778fa42" 
         />
+        <meta
+          name="description"
+          content="Кафе бурят-монгольской кухни в Нерюнгри 'Кочевник'. Режим работы 10:00 - 18:30." 
+        />
       </Head>
       <Layout>
         <Component {...pageProps} />
