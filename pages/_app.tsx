@@ -47,7 +47,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
         <meta
           name="description"
-          content="Кафе бурят-монгольской кухни в Нерюнгри 'Кочевник'. Режим работы 10:00 - 18:30." 
+          content="Кафе бурят-монгольской кухни 'Кочевник'. 
+          Режим работы 10:00 - 18:30." 
         />
       </Head>
       <Layout>

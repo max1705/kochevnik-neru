@@ -26,6 +26,7 @@ const Header = () => {
   const links: Link[] = useMemo(
     () => [
       {
+        rel: 'canonical',
         href: '/menu',
         text: t('projectsTitle'),
       },
