@@ -45,6 +45,10 @@ function MyApp({ Component, pageProps }: AppProps) {
           name="yandex-verification" 
           content="ce3c6df57778fa42" 
         />
+        <meta 
+          name="google-site-verification" 
+          content="ljA2Bu8UHTJtMpdpwoeGOwwn_fF4f-om3Jj7GPi6Y0E" 
+        />
         <meta
           name="description"
           content="Кафе бурят-монгольской кухни 'Кочевник'. 
