@@ -17,147 +17,147 @@
   "businessLunch1": {
     "title": "Business-Lunch 1",
     "desc": "Vinaigrette, solyanka, French meat, rice with vegetables",
-    "price": "600 Rub"
+    "price": "680 Rub"
   },
   "businessLunch2": {
     "title": "Business-Lunch 2",
     "desc": "Korean carrots, homemade noodle soup, steak with egg, rice with vegetables",
-    "price": "600 Rub"
+    "price": "680 Rub"
   },
   "firstСourse1": {
     "title": "Homemade noodle soup 450g",
     "desc": "Beef, homemade noodles",
-    "price": "230 Rub"
+    "price": "270 Rub"
   },
   "firstСourse2": {
     "title": "Beef buchler 500g",
     "desc": "Beef, onion, potatoes",
-    "price": "330 Rub"
+    "price": "350 Rub"
   },
   "firstСourse3": {
     "title": "Pelmeni 200g",
     "desc": "Beef, pork, onion",
-    "price": "210 Rub"
+    "price": "240 Rub"
   },
   "firstСourse4": {
     "title": "Solyanka 450g",
     "desc": "Beef, brisket, smoked sausage, potatoes, pickled cucumber, olives, tomato, lemon",
-    "price": "230 Rub"
+    "price": "270 Rub"
   },
   "firstСourse5": {
     "title": "Lagman 450g",
     "desc": "Beef, noodles, potatoes, bell pepper, onion, tomato",
-    "price": "240 Rub"
+    "price": "280 Rub"
   },
   "firstСourse6": {
     "title": "Genghis Khan 450g",
     "desc": "Lamb, pelmeni",
-    "price": "330 Rub"
+    "price": "350 Rub"
   },
   "firstСourse7": {
     "title": "Bayan Khoto 450g",
     "desc": "Beef, homemade noodles, pelmeni",
-    "price": "280 Rub"
+    "price": "320 Rub"
   },
   "firstСourse8": {
     "title": "Okroshka 400g",
     "desc": "Beef meat, boiled sausage, fresh cucumbers, radishes, potatoes, egg, mayonnaise, greens",
-    "price": "250 Rub"
+    "price": "270 Rub"
   },
   "secondСourse1": {
     "title": "Buuz 1pc 75g",
     "desc": "Beef, pork, onion",
-    "price": "62 Rub"
+    "price": "70 Rub"
   },
   "secondСourse2": {
     "title": "Tsuivan 220g",
     "desc": "Beef, homemade noodles, bell pepper, carrots, soy sauce, chili",
-    "price": "240 Rub"
+    "price": "310 Rub"
   },
   "secondСourse3": {
     "title": "Thai meat with potatoes 300g",
     "desc": "Pork, potatoes, bell peppers, carrots, onions, soy sauce",
-    "price": "260 Rub"
+    "price": "300 Rub"
   },
   "secondСourse4": {
     "title": "Beefsteak with egg 100g",
     "desc": "",
-    "price": "240 Rub"
+    "price": "270 Rub"
   },
   "secondСourse5": {
     "title": "French meat 100g",
     "desc": "Pork, champignons, onions, mayonnaise, cheese",
-    "price": "240 Rub"
+    "price": "280 Rub"
   },
   "secondСourse6": {
     "title": "Pasta Bolognese 330g",
     "desc": "Homemade noodles, minced pork + beef, cheese, tomato paste, ketchup",
-    "price": "290 Rub"
+    "price": "320 Rub"
   },
   "secondСourse7": {
     "title": "Pasta Carbonara 270g",
     "desc": "Noodles, bacon, cream, cheese",
-    "price": "290 Rub"
+    "price": "320 Rub"
   },
   "secondСourse8": {
     "title": "French fries 120g",
     "desc": "",
-    "price": "180 Rub"
+    "price": "220 Rub"
   },
   "secondСourse9": {
     "title": "Rice with vegetables 150g",
     "desc": "Rice, bell pepper, carrots, canned peas",
-    "price": "90 Rub"
+    "price": "110 Rub"
   },
   "dishInPan1": {
     "title": "Kochevnik (Nomad) 350г",
     "desc": "Lamb ribs, potatoes, onions, spices",
-    "price": "370 Rub"
+    "price": "410 Rub"
   },
   "dishInPan2": {
     "title": "Roast in a frying pan 350g",
     "desc": "Pork, eggplant, potatoes, onions, cream",
-    "price": "370 Rub"
+    "price": "410 Rub"
   },
   "dishInPan3": {
     "title": "Ustaliy Putnik (Tired Traveler) 350g",
     "desc": "Beef, potatoes, bell peppers, onions, cream",
-    "price": "370 Rub"
+    "price": "410 Rub"
   },
   "dishInPan4": {
     "title": "Chicken breast with vegetables 280g",
     "desc": "Chicken breast, bell pepper, eggplant, green beans, soy sauce",
-    "price": "320 Rub"
+    "price": "350 Rub"
   },
   "dishInPan5": {
     "title": "Teriyaki chicken 280g",
     "desc": "Chicken, potatoes, teriyaki sauce, sesame",
-    "price": "320 Rub"
+    "price": "350 Rub"
   },
   "bakery1": {
     "title": "Chebureki 1шт",
     "desc": "",
-    "price": "120 Rub"
+    "price": "150 Rub"
   },
   "bakery2": {
     "title": "Pancakes stuffed with meat 110g",
     "desc": "",
-    "price": "90 Rub"
+    "price": "130 Rub"
   },
   "bakery3": {
     "title": "Pancakes with condensed milk 2pcs",
     "desc": "",
-    "price": "50 Rub"
+    "price": "90 Rub"
   },
   "bakery4": {
     "title": "Pancakes with jam 2pcs",
     "desc": "",
-    "price": "50 Rub"
+    "price": "90 Rub"
   },
   "bakery5": {
     "title": "Pancakes with sour cream 2pcs",
     "desc": "",
-    "price": "50 Rub"
+    "price": "90 Rub"
   },
   "bakery6": {
     "title": "Bread 1pc",
@@ -167,77 +167,77 @@
   "bakery7": {
     "title": "Khuushuur 2pcs",
     "desc": "Beef, pork, onion deep fried",
-    "price": "150 Rub"
+    "price": "180 Rub"
   },
   "beverages1": {
     "title": "Cowberry fruit drink 1l",
     "desc": "",
-    "price": "220 Rub"
+    "price": "300 Rub"
   },
   "beverages2": {
     "title": "Dried fruit compote 1l",
     "desc": "",
-    "price": "180 Rub"
+    "price": "250 Rub"
   },
   "salad1": {
     "title": "Caesar salad with chicken 170g",
     "desc": "Lettuce, chicken, tomato, crackers, cheese, sauce",
-    "price": "250 Rub"
+    "price": "280 Rub"
   },
   "salad2": {
     "title": "Greek salad 200g",
     "desc": "Lettuce, tomato, cucumbers, bell pepper, fetax cheese, olives, onion, vegetable oil",
-    "price": "270 Rub"
+    "price": "300 Rub"
   },
   "salad3": {
     "title": "Warm salad 250g",
     "desc": "Beef, bell pepper, onion, carrot, fresh cucumber, spices",
-    "price": "290 Rub"
+    "price": "340 Rub"
   },
   "salad4": {
     "title": "Korean carrots 100g",
     "desc": "Carrots, garlic, onions, spices",
-    "price": "70 Rub"
+    "price": "100 Rub"
   },
   "salad5": {
     "title": "Beetroot salad 100g",
     "desc": "Beetroot, garlic, mayonnaise",
-    "price": "70 Rub"
+    "price": "100 Rub"
   },
   "salad6": {
     "title": "Cellophane noodles 100g",
     "desc": "Cellophane noodles, bell pepper, carrots, fresh cucumber, garlic, spices",
-    "price": "70 Rub"
+    "price": "100 Rub"
   },
   "salad7": {
     "title": "Vinegret 100g",
     "desc": "Potatoes, beets, pickled cucumber, carrots, onions",
-    "price": "80 Rub"
+    "price": "110 Rub"
   },
   "salad8": {
     "title": "Polish cucumbers 110g",
     "desc": "Fresh cucumber, garlic, dill, salt, pepper, vegetable oil",
-    "price": "80 Rub"
+    "price": "100 Rub"
   },
   "salad9": {
     "title": "Country-style salad with herring 150g",
     "desc": "Potatoes, herring, onions, green peas, butter",
-    "price": "80 Rub"
+    "price": "100 Rub"
   },
   "salad10": {
     "title": "Snack Salad 120g",
     "desc": "Smoked sausage, cheese, fresh cucumber, mayonnaise",
-    "price": "80 Rub"
+    "price": "100 Rub"
   },
   "semiFinishedProducts1": {
     "title": "Buuz frozen 75g",
     "desc": "",
-    "price": "58 Rub"
+    "price": "65 Rub"
   },
   "semiFinishedProducts2": {
     "title": "Pelmeni frozen 1kg",
     "desc": "",
-    "price": "500 Rub"
+    "price": "600 Rub"
   },
   "pizza1": {
     "title": "Pepperoni 700g",
