@@ -6,7 +6,8 @@
     background-color: rgba(90, 92, 94, 0.4);
   }
 
-  .projectButton, .projectCount {
+  .projectButton,
+  .projectCount {
     color: $textMainColor;
   }
 
@@ -66,6 +67,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: auto;
 }
 
 .projectButtonBlock {
@@ -100,7 +102,6 @@
   &:hover {
     background-color: $orangeHover;
   }
-
 }
 .projectButtonDelete {
   height: 100%;
