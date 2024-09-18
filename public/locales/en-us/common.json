@@ -17,47 +17,47 @@
   "businessLunch1": {
     "title": "Business-Lunch 1",
     "desc": "Vinaigrette, solyanka, French meat, rice with vegetables",
-    "price": "740 Rub"
+    "price": "680 Rub"
   },
   "businessLunch2": {
     "title": "Business-Lunch 2",
     "desc": "Korean carrots, homemade noodle soup, steak with egg, rice with vegetables",
-    "price": "740 Rub"
+    "price": "680 Rub"
   },
   "firstСourse1": {
     "title": "Homemade noodle soup 450g",
     "desc": "Beef, homemade noodles",
-    "price": "290 Rub"
+    "price": "270 Rub"
   },
   "firstСourse2": {
     "title": "Beef buchler 500g",
     "desc": "Beef, onion, potatoes",
-    "price": "380 Rub"
+    "price": "350 Rub"
   },
   "firstСourse3": {
     "title": "Pelmeni 200g",
     "desc": "Beef, pork, onion",
-    "price": "260 Rub"
+    "price": "240 Rub"
   },
   "firstСourse4": {
     "title": "Solyanka 450g",
     "desc": "Beef, brisket, smoked sausage, potatoes, pickled cucumber, olives, tomato, lemon",
-    "price": "290 Rub"
+    "price": "270 Rub"
   },
   "firstСourse5": {
     "title": "Lagman 450g",
     "desc": "Beef, noodles, potatoes, bell pepper, onion, tomato",
-    "price": "300 Rub"
+    "price": "280 Rub"
   },
   "firstСourse6": {
     "title": "Genghis Khan 450g",
     "desc": "Lamb, pelmeni",
-    "price": "390 Rub"
+    "price": "350 Rub"
   },
   "firstСourse7": {
     "title": "Bayan Khoto 450g",
     "desc": "Beef, homemade noodles, pelmeni",
-    "price": "350 Rub"
+    "price": "320 Rub"
   },
   "firstСourse8": {
     "title": "Okroshka 400g",
@@ -72,67 +72,67 @@
   "secondСourse2": {
     "title": "Tsuivan 220g",
     "desc": "Beef, homemade noodles, bell pepper, carrots, soy sauce, chili",
-    "price": "340 Rub"
+    "price": "310 Rub"
   },
   "secondСourse3": {
     "title": "Thai meat with potatoes 300g",
     "desc": "Pork, potatoes, bell peppers, carrots, onions, soy sauce",
-    "price": "320 Rub"
+    "price": "300 Rub"
   },
   "secondСourse4": {
     "title": "Beefsteak with egg 100g",
     "desc": "",
-    "price": "290 Rub"
+    "price": "270 Rub"
   },
   "secondСourse5": {
     "title": "French meat 100g",
     "desc": "Pork, champignons, onions, mayonnaise, cheese",
-    "price": "300 Rub"
+    "price": "280 Rub"
   },
   "secondСourse6": {
     "title": "Pasta Bolognese 330g",
     "desc": "Homemade noodles, minced pork + beef, cheese, tomato paste, ketchup",
-    "price": "340 Rub"
+    "price": "320 Rub"
   },
   "secondСourse7": {
     "title": "Pasta Carbonara 270g",
     "desc": "Noodles, bacon, cream, cheese",
-    "price": "340 Rub"
+    "price": "320 Rub"
   },
   "secondСourse8": {
     "title": "French fries 120g",
     "desc": "",
-    "price": "250 Rub"
+    "price": "220 Rub"
   },
   "secondСourse9": {
     "title": "Rice with vegetables 150g",
     "desc": "Rice, bell pepper, carrots, canned peas",
-    "price": "130 Rub"
+    "price": "110 Rub"
   },
   "dishInPan1": {
     "title": "Kochevnik (Nomad) 350г",
     "desc": "Lamb ribs, potatoes, onions, spices",
-    "price": "440 Rub"
+    "price": "410 Rub"
   },
   "dishInPan2": {
     "title": "Roast in a frying pan 350g",
     "desc": "Pork, eggplant, potatoes, onions, cream",
-    "price": "440 Rub"
+    "price": "410 Rub"
   },
   "dishInPan3": {
     "title": "Ustaliy Putnik (Tired Traveler) 350g",
     "desc": "Beef, potatoes, bell peppers, onions, cream",
-    "price": "440 Rub"
+    "price": "410 Rub"
   },
   "dishInPan4": {
     "title": "Chicken breast with vegetables 280g",
     "desc": "Chicken breast, bell pepper, eggplant, green beans, soy sauce",
-    "price": "370 Rub"
+    "price": "350 Rub"
   },
   "dishInPan5": {
     "title": "Teriyaki chicken 280g",
     "desc": "Chicken, potatoes, teriyaki sauce, sesame",
-    "price": "370 Rub"
+    "price": "350 Rub"
   },
   "bakery1": {
     "title": "Chebureki 1шт",
@@ -147,17 +147,17 @@
   "bakery3": {
     "title": "Pancakes with condensed milk 2pcs",
     "desc": "",
-    "price": "100 Rub"
+    "price": "90 Rub"
   },
   "bakery4": {
     "title": "Pancakes with jam 2pcs",
     "desc": "",
-    "price": "100 Rub"
+    "price": "90 Rub"
   },
   "bakery5": {
     "title": "Pancakes with sour cream 2pcs",
     "desc": "",
-    "price": "100 Rub"
+    "price": "90 Rub"
   },
   "bakery6": {
     "title": "Bread 1pc",
@@ -182,17 +182,17 @@
   "salad1": {
     "title": "Caesar salad with chicken 170g",
     "desc": "Lettuce, chicken, tomato, crackers, cheese, sauce",
-    "price": "300 Rub"
+    "price": "280 Rub"
   },
   "salad2": {
     "title": "Greek salad 200g",
     "desc": "Lettuce, tomato, cucumbers, bell pepper, fetax cheese, olives, onion, vegetable oil",
-    "price": "320 Rub"
+    "price": "300 Rub"
   },
   "salad3": {
     "title": "Warm salad 250g",
     "desc": "Beef, bell pepper, onion, carrot, fresh cucumber, spices",
-    "price": "370 Rub"
+    "price": "340 Rub"
   },
   "salad4": {
     "title": "Korean carrots 100g",
@@ -212,7 +212,7 @@
   "salad7": {
     "title": "Vinegret 100g",
     "desc": "Potatoes, beets, pickled cucumber, carrots, onions",
-    "price": "120 Rub"
+    "price": "110 Rub"
   },
   "salad8": {
     "title": "Polish cucumbers 110g",
@@ -242,46 +242,46 @@
   "pizza1": {
     "title": "Pepperoni 700g",
     "desc": "Salami, mozzarella cheese, tomatoes, olives, tomato sauce",
-    "price": "850 Rub"
+    "price": "750 Rub"
   },
   "pizza2": {
     "title": "Hunting 750g",
     "desc": "Hunting sausages, chicken, pickled cucumbers, mushrooms, tomatoes, mozzarella cheese, onions",
-    "price": "900 Rub"
+    "price": "800 Rub"
   },
   "pizza3": {
     "title": "Kochevnik (Nomad) Specialty 950g",
     "desc": "Chicken fillet, hunting sausages, bacon, salami, ham, bell pepper, olives, pickled cucumbers, tomatoes, onions, mozzarella cheese",
-    "price": "1000 Rub"
+    "price": "900 Rub"
   },
   "pizza4": {
     "title": "Diablo 750g",
     "desc": "Salami, carbonate, mozzarella cheese, tomatoes, champignons, onions, chili, tomato sauce",
-    "price": "900 Rub"
+    "price": "800 Rub"
   },
   "pizza5": {
     "title": "Ham and mushrooms 700g",
     "desc": "Ham, mushrooms, tomatoes, onions, mozzarella cheese, tomato sauce",
-    "price": "800 Rub"
+    "price": "700 Rub"
   },
   "pizza6": {
     "title": "4 seasons 700g",
     "desc": "Salami, chicken fillet, ham, raw smoked sausage, carbonate, tomatoes, olives, mushrooms, onions, chili, pineapples, mozzarella cheese, tomato sauce",
-    "price": "850 Rub"
+    "price": "750 Rub"
   },
   "pizza7": {
     "title": "Hawaiian 700g",
     "desc": "Chicken fillet, ham, pineapples, mozzarella cheese, tomato sauce",
-    "price": "800 Rub"
+    "price": "700 Rub"
   },
   "hachapuri1": {
     "title": "Khachapuri 250g",
     "desc": "Dough, cheese",
-    "price": "220 Rub"
+    "price": "190 Rub"
   },
   "hachapuri2": {
     "title": "Khachapuri with ham 350g",
     "desc": "Dough, cheese, ham",
-    "price": "340 Rub"
+    "price": "310 Rub"
   }
 }

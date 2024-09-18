@@ -181,120 +181,121 @@ const Projects: NextPage = () => {
     ],
     [t]
   );
-  
+
   const firstCourse: FirstСourseImage[] = useMemo(
-    () => [{
-      id: 3,
-      src: '/img/sup-lapsha-domashnyaya-450g.png',
-      title: t('firstСourse1.title'),
-      alt: 'sup-lapsha-domashnyaya-450g',
-      desc: t('firstСourse1.desc'),
-      price: t('firstСourse1.price'),
-      padding: 10,
-      layout: 'intrinsic',
-      quality: 75,
-      width: 318,
-      height: 179,
-      inOrder: false,
-    },
-    {
-      id: 4,
-      src: '/img/buhleor-iz-govyadiny-500g.png',
-      title: t('firstСourse2.title'),
-      alt: 'buhleor-iz-govyadiny-500g',
-      desc: t('firstСourse2.desc'),
-      price: t('firstСourse2.price'),
-      padding: 10,
-      layout: 'intrinsic',
-      quality: 75,
-      width: 318,
-      height: 179,
-      inOrder: false,
-    },
-    {
-      id: 5,
-      src: '/img/pelmeni-200g.png',
-      title: t('firstСourse3.title'),
-      alt: 'pelmeni-200g',
-      desc: t('firstСourse3.desc'),
-      price: t('firstСourse3.price'),
-      padding: 10,
-      layout: 'intrinsic',
-      quality: 75,
-      width: 318,
-      height: 179,
-      inOrder: false,
-    },
-    {
-      id: 6,
-      src: '/img/solyanka-sbornaya-450g.png',
-      title: t('firstСourse4.title'),
-      alt: 'solyanka-sbornaya-450g',
-      desc: t('firstСourse4.desc'),
-      price: t('firstСourse4.price'),
-      padding: 10,
-      layout: 'intrinsic',
-      quality: 75,
-      width: 318,
-      height: 179,
-      inOrder: false,
-    },
-    {
-      id: 7,
-      src: '/img/lagman-450g.png',
-      title: t('firstСourse5.title'),
-      alt: 'lagman-450g',
-      desc: t('firstСourse5.desc'),
-      price: t('firstСourse5.price'),
-      padding: 10,
-      layout: 'intrinsic',
-      quality: 75,
-      width: 318,
-      height: 179,
-      inOrder: false,
-    },
-    {
-      id: 8,
-      src: '/img/chingishan-450g.png',
-      title: t('firstСourse6.title'),
-      alt: 'chingishan-450g',
-      desc: t('firstСourse6.desc'),
-      price: t('firstСourse6.price'),
-      padding: 10,
-      layout: 'intrinsic',
-      quality: 75,
-      width: 318,
-      height: 179,
-      inOrder: false,
-    },
-    {
-      id: 9,
-      src: '/img/bayan-hoto-450g.png',
-      title: t('firstСourse7.title'),
-      alt: 'bayan-hoto-450g',
-      desc: t('firstСourse7.desc'),
-      price: t('firstСourse7.price'),
-      padding: 10,
-      layout: 'intrinsic',
-      quality: 75,
-      width: 318,
-      height: 179,
-      inOrder: false,
-    },
-    {
-      id: 10,
-      src: '/img/okroshka-400g.png',
-      title: t('firstСourse8.title'),
-      alt: 'okroshka-400g',
-      desc: t('firstСourse8.desc'),
-      price: t('firstСourse8.price'),
-      padding: 10,
-      layout: 'intrinsic',
-      quality: 75,
-      width: 318,
-      height: 179,
-      inOrder: false,
-    },
+    () => [
+      {
+        id: 3,
+        src: '/img/sup-lapsha-domashnyaya-450g.png',
+        title: t('firstСourse1.title'),
+        alt: 'sup-lapsha-domashnyaya-450g',
+        desc: t('firstСourse1.desc'),
+        price: t('firstСourse1.price'),
+        padding: 10,
+        layout: 'intrinsic',
+        quality: 75,
+        width: 318,
+        height: 179,
+        inOrder: false,
+      },
+      {
+        id: 4,
+        src: '/img/buhleor-iz-govyadiny-500g.png',
+        title: t('firstСourse2.title'),
+        alt: 'buhleor-iz-govyadiny-500g',
+        desc: t('firstСourse2.desc'),
+        price: t('firstСourse2.price'),
+        padding: 10,
+        layout: 'intrinsic',
+        quality: 75,
+        width: 318,
+        height: 179,
+        inOrder: false,
+      },
+      {
+        id: 5,
+        src: '/img/pelmeni-200g.png',
+        title: t('firstСourse3.title'),
+        alt: 'pelmeni-200g',
+        desc: t('firstСourse3.desc'),
+        price: t('firstСourse3.price'),
+        padding: 10,
+        layout: 'intrinsic',
+        quality: 75,
+        width: 318,
+        height: 179,
+        inOrder: false,
+      },
+      {
+        id: 6,
+        src: '/img/solyanka-sbornaya-450g.png',
+        title: t('firstСourse4.title'),
+        alt: 'solyanka-sbornaya-450g',
+        desc: t('firstСourse4.desc'),
+        price: t('firstСourse4.price'),
+        padding: 10,
+        layout: 'intrinsic',
+        quality: 75,
+        width: 318,
+        height: 179,
+        inOrder: false,
+      },
+      {
+        id: 7,
+        src: '/img/lagman-450g.png',
+        title: t('firstСourse5.title'),
+        alt: 'lagman-450g',
+        desc: t('firstСourse5.desc'),
+        price: t('firstСourse5.price'),
+        padding: 10,
+        layout: 'intrinsic',
+        quality: 75,
+        width: 318,
+        height: 179,
+        inOrder: false,
+      },
+      {
+        id: 8,
+        src: '/img/chingishan-450g.png',
+        title: t('firstСourse6.title'),
+        alt: 'chingishan-450g',
+        desc: t('firstСourse6.desc'),
+        price: t('firstСourse6.price'),
+        padding: 10,
+        layout: 'intrinsic',
+        quality: 75,
+        width: 318,
+        height: 179,
+        inOrder: false,
+      },
+      {
+        id: 9,
+        src: '/img/bayan-hoto-450g.png',
+        title: t('firstСourse7.title'),
+        alt: 'bayan-hoto-450g',
+        desc: t('firstСourse7.desc'),
+        price: t('firstСourse7.price'),
+        padding: 10,
+        layout: 'intrinsic',
+        quality: 75,
+        width: 318,
+        height: 179,
+        inOrder: false,
+      },
+      // {
+      //   id: 10,
+      //   src: '/img/okroshka-400g.png',
+      //   title: t('firstСourse8.title'),
+      //   alt: 'okroshka-400g',
+      //   desc: t('firstСourse8.desc'),
+      //   price: t('firstСourse8.price'),
+      //   padding: 10,
+      //   layout: 'intrinsic',
+      //   quality: 75,
+      //   width: 318,
+      //   height: 179,
+      //   inOrder: false,
+      // },
     ],
     [t]
   );
@@ -430,7 +431,7 @@ const Projects: NextPage = () => {
     ],
     [t]
   );
-  
+
   const dishInPan: DishInPanImage[] = useMemo(
     () => [
       {
@@ -506,7 +507,7 @@ const Projects: NextPage = () => {
     ],
     [t]
   );
-  
+
   const bakery: BakeryImage[] = useMemo(
     () => [
       {
@@ -638,7 +639,7 @@ const Projects: NextPage = () => {
     ],
     [t]
   );
-  
+
   const beverages: BeveragesImage[] = useMemo(
     () => [
       {
@@ -672,7 +673,7 @@ const Projects: NextPage = () => {
     ],
     [t]
   );
-  
+
   const salad: SaladImage[] = useMemo(
     () => [
       {
@@ -818,7 +819,7 @@ const Projects: NextPage = () => {
     ],
     [t]
   );
-  
+
   const semiFinishedProducts: SemiFinishedProductsImage[] = useMemo(
     () => [
       {
@@ -852,7 +853,7 @@ const Projects: NextPage = () => {
     ],
     [t]
   );
-  
+
   const pizza: PizzaImage[] = useMemo(
     () => [
       {
@@ -963,42 +964,95 @@ const Projects: NextPage = () => {
         <title>{`${KOCHEVNIK} | ${t('title')}`}</title>
       </Head>
       <div>
-        <a className={styles.topButton} href="#top">{t('topButton')}</a>
+        <a
+          className={styles.topButton}
+          href="#top"
+        >
+          {t('topButton')}
+        </a>
       </div>
       <div>
         <nav>
           <ul className={styles.list}>
             <li>
-              <a className={styles.links} href="#businessLunch">{t('menu.businessLunch')}</a>
+              <a
+                className={styles.links}
+                href="#businessLunch"
+              >
+                {t('menu.businessLunch')}
+              </a>
             </li>
             <li>
-              <a className={styles.links} href="#firstСourse">{t('menu.firstСourse')}</a>
+              <a
+                className={styles.links}
+                href="#firstСourse"
+              >
+                {t('menu.firstСourse')}
+              </a>
             </li>
             <li>
-              <a className={styles.links} href="#secondСourse">{t('menu.secondСourse')}</a>
+              <a
+                className={styles.links}
+                href="#secondСourse"
+              >
+                {t('menu.secondСourse')}
+              </a>
             </li>
             <li>
-              <a className={styles.links} href="#dishInPan">{t('menu.dishInPan')}</a>
+              <a
+                className={styles.links}
+                href="#dishInPan"
+              >
+                {t('menu.dishInPan')}
+              </a>
             </li>
             <li>
-              <a className={styles.links} href="#bakery">{t('menu.bakery')}</a>
+              <a
+                className={styles.links}
+                href="#bakery"
+              >
+                {t('menu.bakery')}
+              </a>
             </li>
             <li>
-              <a className={styles.links} href="#beverages">{t('menu.beverages')}</a>
+              <a
+                className={styles.links}
+                href="#beverages"
+              >
+                {t('menu.beverages')}
+              </a>
             </li>
             <li>
-              <a className={styles.links} href="#salad">{t('menu.salad')}</a>
+              <a
+                className={styles.links}
+                href="#salad"
+              >
+                {t('menu.salad')}
+              </a>
             </li>
             <li>
-              <a className={styles.links} href="#pizza">{t('menu.pizza')}</a>
+              <a
+                className={styles.links}
+                href="#pizza"
+              >
+                {t('menu.pizza')}
+              </a>
             </li>
             <li>
-              <a className={styles.links} href="#semiFinishedProducts">{t('menu.semiFinishedProducts')}</a>
+              <a
+                className={styles.links}
+                href="#semiFinishedProducts"
+              >
+                {t('menu.semiFinishedProducts')}
+              </a>
             </li>
           </ul>
         </nav>
       </div>
-      <h1 className={styles.mainTitle} id="businessLunch">
+      <h1
+        className={styles.mainTitle}
+        id="businessLunch"
+      >
         {t('menu.businessLunch')}
       </h1>
       <main className={styles.projects}>
@@ -1015,7 +1069,10 @@ const Projects: NextPage = () => {
           />
         ))}
       </main>
-      <h1 className={styles.mainTitle} id="firstСourse">
+      <h1
+        className={styles.mainTitle}
+        id="firstСourse"
+      >
         {t('menu.firstСourse')}
       </h1>
       <main className={styles.projects}>
@@ -1032,7 +1089,10 @@ const Projects: NextPage = () => {
           />
         ))}
       </main>
-      <h1 className={styles.mainTitle} id="secondСourse">
+      <h1
+        className={styles.mainTitle}
+        id="secondСourse"
+      >
         {t('menu.secondСourse')}
       </h1>
       <main className={styles.projects}>
@@ -1049,7 +1109,10 @@ const Projects: NextPage = () => {
           />
         ))}
       </main>
-      <h1 className={styles.mainTitle} id="dishInPan">
+      <h1
+        className={styles.mainTitle}
+        id="dishInPan"
+      >
         {t('menu.dishInPan')}
       </h1>
       <main className={styles.projects}>
@@ -1066,7 +1129,10 @@ const Projects: NextPage = () => {
           />
         ))}
       </main>
-      <h1 className={styles.mainTitle} id="bakery">
+      <h1
+        className={styles.mainTitle}
+        id="bakery"
+      >
         {t('menu.bakery')}
       </h1>
       <main className={styles.projects}>
@@ -1083,7 +1149,10 @@ const Projects: NextPage = () => {
           />
         ))}
       </main>
-      <h1 className={styles.mainTitle} id="beverages">
+      <h1
+        className={styles.mainTitle}
+        id="beverages"
+      >
         {t('menu.beverages')}
       </h1>
       <main className={styles.projects}>
@@ -1100,7 +1169,10 @@ const Projects: NextPage = () => {
           />
         ))}
       </main>
-      <h1 className={styles.mainTitle} id="salad">
+      <h1
+        className={styles.mainTitle}
+        id="salad"
+      >
         {t('menu.salad')}
       </h1>
       <main className={styles.projects}>
@@ -1117,7 +1189,10 @@ const Projects: NextPage = () => {
           />
         ))}
       </main>
-      <h1 className={styles.mainTitle} id="pizza">
+      <h1
+        className={styles.mainTitle}
+        id="pizza"
+      >
         {t('menu.pizza')}
       </h1>
       <main className={styles.projects}>
@@ -1134,7 +1209,10 @@ const Projects: NextPage = () => {
           />
         ))}
       </main>
-      <h1 className={styles.mainTitle} id="semiFinishedProducts">
+      <h1
+        className={styles.mainTitle}
+        id="semiFinishedProducts"
+      >
         {t('menu.semiFinishedProducts')}
       </h1>
       <main className={styles.projects}>

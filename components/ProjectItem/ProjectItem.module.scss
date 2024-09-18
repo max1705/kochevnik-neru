@@ -27,7 +27,7 @@
 .project {
   display: flex;
   flex-direction: column;
-  max-width: $widthProjectBlock;
+  // max-width: $widthProjectBlock;
   width: 100%;
   position: relative;
   overflow: visible;
@@ -65,6 +65,7 @@
 
 .projectPriceBlock {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   margin-top: auto;

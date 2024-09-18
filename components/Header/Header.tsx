@@ -55,7 +55,7 @@ const Header = () => {
           id="top"
         >
           <nav className={styles.headerLeft}>
-            <Link href="/">
+            <Link href="/" legacyBehavior>
               <a
                 className={clsx(styles.logo)}
               >
@@ -75,6 +75,7 @@ const Header = () => {
                 <Link
                   key={index}
                   href={link.href}
+                  legacyBehavior
                 >
                   <a
                     className={clsx(styles.link, {

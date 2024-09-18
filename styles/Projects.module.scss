@@ -14,19 +14,30 @@ $borderRadius: 8px;
   gap: 40px;
   flex-wrap: wrap;
   margin: 0 0 92px 0;
-  grid-template-columns: repeat(auto-fit, minmax($widthProjectBlock, 0fr));
+  grid-template-columns: repeat(4, 1fr);
+
+  @media screen and (max-width: $tabletLgBreakpointMax) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media screen and (max-width: $tabletBreakpointMax) {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
   @media screen and (max-width: $mobileBreakpointMax) {
-    grid-template-columns: none;
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
 .logoBlock {
   text-align: center;
-  padding: 20px;
+  padding: 20px 0 0;
   img {
     border-radius: 8px;
-    min-height: 150px;
+    max-width: 1600px;
+    max-height: 300px;
+    width: 100%;
+    object-fit: contain;
     @media screen and (max-width: $mobileBreakpointMax) {
       height: 150px;
     }
@@ -60,4 +71,3 @@ $borderRadius: 8px;
   padding: 0;
   justify-content: center;
 }
-

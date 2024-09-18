@@ -21,13 +21,12 @@ interface CategoryMenu {
   padding: number;
   layout: ImageProps['layout'];
   quality: number;
-
 }
 
 const Home = () => {
   const { t } = useTranslation('projects');
 
-  const categoryMenu: CategoryMenu [] = useMemo(
+  const categoryMenu: CategoryMenu[] = useMemo(
     () => [
       {
         id: 1,
@@ -137,16 +136,16 @@ const Home = () => {
       <Head>
         <title>{`${KOCHEVNIK}`}</title>
       </Head>
-      <div className={styles.logoBlock} >
+      <div className={styles.logoBlock}>
         <Image
           src="/img/logo.jpg"
           alt="Kochevnik"
+          width={1200}
+          height={1200}
         />
       </div>
 
-      <h1 className={styles.mainTitle}>
-        {t('title')}
-      </h1>
+      <h1 className={styles.mainTitle}>{t('title')}</h1>
       <main className={styles.projects}>
         {categoryMenu.map((project, index) => (
           <ProjectMenu
@@ -172,4 +171,3 @@ export const getStaticProps = async ({ locale }: any) => ({
 });
 
 export default Home;
-
