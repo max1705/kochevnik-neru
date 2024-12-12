@@ -317,6 +317,48 @@ const Projects: NextPage = () => {
         inOrder: false,
       },
       {
+        id: 44,
+        src: '/img/buuzy-zamorozhennye-75g.png',
+        title: t('semiFinishedProducts1.title'),
+        alt: 'buuzy-zamorozhennye-75g',
+        desc: t('semiFinishedProducts1.desc'),
+        price: t('semiFinishedProducts1.price'),
+        padding: 10,
+        layout: 'intrinsic',
+        quality: 75,
+        width: 318,
+        height: 179,
+        inOrder: false,
+      },
+      {
+        id: 45,
+        src: '/img/pelmeni-zamorozhennye-1kg.png',
+        title: t('semiFinishedProducts2.title'),
+        alt: 'pelmeni-zamorozhennye-1kg',
+        desc: t('semiFinishedProducts2.desc'),
+        price: t('semiFinishedProducts2.price'),
+        padding: 10,
+        layout: 'intrinsic',
+        quality: 75,
+        width: 318,
+        height: 179,
+        inOrder: false,
+      },
+      {
+        id: 31,
+        src: '/img/hushuur-75g.png',
+        title: t('bakery7.title'),
+        alt: 'hushuur-75g',
+        desc: t('bakery7.desc'),
+        price: t('bakery7.price'),
+        padding: 10,
+        layout: 'intrinsic',
+        quality: 75,
+        width: 318,
+        height: 179,
+        inOrder: false,
+      },
+      {
         id: 12,
         src: '/img/cujvan-220g.png',
         title: t('secondСourse2.title'),
@@ -351,6 +393,20 @@ const Projects: NextPage = () => {
         alt: 'bifshteks-s-yaytsom-100g',
         desc: t('secondСourse4.desc'),
         price: t('secondСourse4.price'),
+        padding: 10,
+        layout: 'intrinsic',
+        quality: 75,
+        width: 318,
+        height: 179,
+        inOrder: false,
+      },
+      {
+        id: 53,
+        src: '/img/glazunya-150g.png',
+        title: t('secondСourse10.title'),
+        alt: 'glazunya-150g',
+        desc: t('secondСourse10.desc'),
+        price: t('secondСourse10.price'),
         padding: 10,
         layout: 'intrinsic',
         quality: 75,
@@ -441,6 +497,34 @@ const Projects: NextPage = () => {
         alt: 'kochevnik-350g',
         desc: t('dishInPan1.desc'),
         price: t('dishInPan1.price'),
+        padding: 10,
+        layout: 'intrinsic',
+        quality: 75,
+        width: 318,
+        height: 179,
+        inOrder: false,
+      },
+      {
+        id: 54,
+        src: '/img/govyadina-na-skovorode-400g.png',
+        title: t('dishInPan6.title'),
+        alt: 'govyadina-na-skovorode-400g',
+        desc: t('dishInPan6.desc'),
+        price: t('dishInPan6.price'),
+        padding: 10,
+        layout: 'intrinsic',
+        quality: 75,
+        width: 318,
+        height: 179,
+        inOrder: false,
+      },
+      {
+        id: 55,
+        src: '/img/svinina-na-skovorode-400g.png',
+        title: t('dishInPan7.title'),
+        alt: 'svinina-na-skovorode-400g',
+        desc: t('dishInPan7.desc'),
+        price: t('dishInPan7.price'),
         padding: 10,
         layout: 'intrinsic',
         quality: 75,
@@ -594,48 +678,6 @@ const Projects: NextPage = () => {
         height: 179,
         inOrder: false,
       },
-      {
-        id: 31,
-        src: '/img/hushuur-75g.png',
-        title: t('bakery7.title'),
-        alt: 'hushuur-75g',
-        desc: t('bakery7.desc'),
-        price: t('bakery7.price'),
-        padding: 10,
-        layout: 'intrinsic',
-        quality: 75,
-        width: 318,
-        height: 179,
-        inOrder: false,
-      },
-      {
-        id: 53,
-        src: '/img/hachapuri-250g.png',
-        title: t('hachapuri1.title'),
-        alt: 'hachapuri-250g',
-        desc: t('hachapuri1.desc'),
-        price: t('hachapuri1.price'),
-        padding: 10,
-        layout: 'intrinsic',
-        quality: 75,
-        width: 318,
-        height: 179,
-        inOrder: false,
-      },
-      {
-        id: 54,
-        src: '/img/hachapuri-s-vetchinoj-350g.png',
-        title: t('hachapuri2.title'),
-        alt: 'hachapuri-s-vetchinoj-350g',
-        desc: t('hachapuri2.desc'),
-        price: t('hachapuri2.price'),
-        padding: 10,
-        layout: 'intrinsic',
-        quality: 75,
-        width: 318,
-        height: 179,
-        inOrder: false,
-      },
     ],
     [t]
   );
@@ -690,13 +732,27 @@ const Projects: NextPage = () => {
         height: 179,
         inOrder: false,
       },
+      // {
+      //   id: 35,
+      //   src: '/img/salat-grecheskij-200g.png',
+      //   title: t('salad2.title'),
+      //   alt: 'salat-grecheskij-200g',
+      //   desc: t('salad2.desc'),
+      //   price: t('salad2.price'),
+      //   padding: 10,
+      //   layout: 'intrinsic',
+      //   quality: 75,
+      //   width: 318,
+      //   height: 179,
+      //   inOrder: false,
+      // },
       {
-        id: 35,
-        src: '/img/salat-grecheskij-200g.png',
-        title: t('salad2.title'),
-        alt: 'salat-grecheskij-200g',
-        desc: t('salad2.desc'),
-        price: t('salad2.price'),
+        id: 36,
+        src: '/img/salat-toplyj-250g.png',
+        title: t('salad3.title'),
+        alt: 'salat-toplyj-250g',
+        desc: t('salad3.desc'),
+        price: t('salad3.price'),
         padding: 10,
         layout: 'intrinsic',
         quality: 75,
@@ -705,12 +761,26 @@ const Projects: NextPage = () => {
         inOrder: false,
       },
       {
-        id: 36,
-        src: '/img/salat-toplyj-250g.png',
-        title: t('salad3.title'),
-        alt: 'salat-toplyj-250g',
-        desc: t('salad3.desc'),
-        price: t('salad3.price'),
+        id: 35,
+        src: '/img/salat-ovochnoy-150g.png',
+        title: t('salad11.title'),
+        alt: 'salat-ovochnoy-150g',
+        desc: t('salad11.desc'),
+        price: t('salad11.price'),
+        padding: 10,
+        layout: 'intrinsic',
+        quality: 75,
+        width: 318,
+        height: 179,
+        inOrder: false,
+      },
+      {
+        id: 56,
+        src: '/img/salat-iz-fasoli-170g.png',
+        title: t('salad12.title'),
+        alt: 'salat-iz-fasoli-170g',
+        desc: t('salad12.desc'),
+        price: t('salad12.price'),
         padding: 10,
         layout: 'intrinsic',
         quality: 75,
@@ -747,12 +817,12 @@ const Projects: NextPage = () => {
         inOrder: false,
       },
       {
-        id: 39,
-        src: '/img/funchoza-100g.png',
-        title: t('salad6.title'),
-        alt: 'funchoza-100g',
-        desc: t('salad6.desc'),
-        price: t('salad6.price'),
+        id: 40,
+        src: '/img/vinegret-100g.png',
+        title: t('salad7.title'),
+        alt: 'vinegret-100g',
+        desc: t('salad7.desc'),
+        price: t('salad7.price'),
         padding: 10,
         layout: 'intrinsic',
         quality: 75,
@@ -761,12 +831,12 @@ const Projects: NextPage = () => {
         inOrder: false,
       },
       {
-        id: 40,
-        src: '/img/vinegret-100g.png',
-        title: t('salad7.title'),
-        alt: 'vinegret-100g',
-        desc: t('salad7.desc'),
-        price: t('salad7.price'),
+        id: 39,
+        src: '/img/funchoza-100g.png',
+        title: t('salad6.title'),
+        alt: 'funchoza-100g',
+        desc: t('salad6.desc'),
+        price: t('salad6.price'),
         padding: 10,
         layout: 'intrinsic',
         quality: 75,
@@ -820,39 +890,39 @@ const Projects: NextPage = () => {
     [t]
   );
 
-  const semiFinishedProducts: SemiFinishedProductsImage[] = useMemo(
-    () => [
-      {
-        id: 44,
-        src: '/img/buuzy-zamorozhennye-75g.png',
-        title: t('semiFinishedProducts1.title'),
-        alt: 'buuzy-zamorozhennye-75g',
-        desc: t('semiFinishedProducts1.desc'),
-        price: t('semiFinishedProducts1.price'),
-        padding: 10,
-        layout: 'intrinsic',
-        quality: 75,
-        width: 318,
-        height: 179,
-        inOrder: false,
-      },
-      {
-        id: 45,
-        src: '/img/pelmeni-zamorozhennye-1kg.png',
-        title: t('semiFinishedProducts2.title'),
-        alt: 'pelmeni-zamorozhennye-1kg',
-        desc: t('semiFinishedProducts2.desc'),
-        price: t('semiFinishedProducts2.price'),
-        padding: 10,
-        layout: 'intrinsic',
-        quality: 75,
-        width: 318,
-        height: 179,
-        inOrder: false,
-      },
-    ],
-    [t]
-  );
+  // const semiFinishedProducts: SemiFinishedProductsImage[] = useMemo(
+  //   () => [
+  //     {
+  //       id: 44,
+  //       src: '/img/buuzy-zamorozhennye-75g.png',
+  //       title: t('semiFinishedProducts1.title'),
+  //       alt: 'buuzy-zamorozhennye-75g',
+  //       desc: t('semiFinishedProducts1.desc'),
+  //       price: t('semiFinishedProducts1.price'),
+  //       padding: 10,
+  //       layout: 'intrinsic',
+  //       quality: 75,
+  //       width: 318,
+  //       height: 179,
+  //       inOrder: false,
+  //     },
+  //     {
+  //       id: 45,
+  //       src: '/img/pelmeni-zamorozhennye-1kg.png',
+  //       title: t('semiFinishedProducts2.title'),
+  //       alt: 'pelmeni-zamorozhennye-1kg',
+  //       desc: t('semiFinishedProducts2.desc'),
+  //       price: t('semiFinishedProducts2.price'),
+  //       padding: 10,
+  //       layout: 'intrinsic',
+  //       quality: 75,
+  //       width: 318,
+  //       height: 179,
+  //       inOrder: false,
+  //     },
+  //   ],
+  //   [t]
+  // );
 
   const pizza: PizzaImage[] = useMemo(
     () => [
@@ -912,34 +982,34 @@ const Projects: NextPage = () => {
         height: 179,
         inOrder: false,
       },
-      {
-        id: 50,
-        src: '/img/vetchina-i-griby-700g.png',
-        title: t('pizza5.title'),
-        alt: 'vetchina-i-griby-700g',
-        desc: t('pizza5.desc'),
-        price: t('pizza5.price'),
-        padding: 10,
-        layout: 'intrinsic',
-        quality: 75,
-        width: 318,
-        height: 179,
-        inOrder: false,
-      },
-      {
-        id: 51,
-        src: '/img/4-sezona-700g.png',
-        title: t('pizza6.title'),
-        alt: '4-sezona-700g',
-        desc: t('pizza6.desc'),
-        price: t('pizza6.price'),
-        padding: 10,
-        layout: 'intrinsic',
-        quality: 75,
-        width: 318,
-        height: 179,
-        inOrder: false,
-      },
+      // {
+      //   id: 50,
+      //   src: '/img/vetchina-i-griby-700g.png',
+      //   title: t('pizza5.title'),
+      //   alt: 'vetchina-i-griby-700g',
+      //   desc: t('pizza5.desc'),
+      //   price: t('pizza5.price'),
+      //   padding: 10,
+      //   layout: 'intrinsic',
+      //   quality: 75,
+      //   width: 318,
+      //   height: 179,
+      //   inOrder: false,
+      // },
+      // {
+      //   id: 51,
+      //   src: '/img/4-sezona-700g.png',
+      //   title: t('pizza6.title'),
+      //   alt: '4-sezona-700g',
+      //   desc: t('pizza6.desc'),
+      //   price: t('pizza6.price'),
+      //   padding: 10,
+      //   layout: 'intrinsic',
+      //   quality: 75,
+      //   width: 318,
+      //   height: 179,
+      //   inOrder: false,
+      // },
       {
         id: 52,
         src: '/img/gavajskaya-700g.png',
@@ -947,6 +1017,34 @@ const Projects: NextPage = () => {
         alt: 'gavajskaya-700g',
         desc: t('pizza7.desc'),
         price: t('pizza7.price'),
+        padding: 10,
+        layout: 'intrinsic',
+        quality: 75,
+        width: 318,
+        height: 179,
+        inOrder: false,
+      },
+      {
+        id: 57,
+        src: '/img/hachapuri-250g.png',
+        title: t('hachapuri1.title'),
+        alt: 'hachapuri-250g',
+        desc: t('hachapuri1.desc'),
+        price: t('hachapuri1.price'),
+        padding: 10,
+        layout: 'intrinsic',
+        quality: 75,
+        width: 318,
+        height: 179,
+        inOrder: false,
+      },
+      {
+        id: 58,
+        src: '/img/hachapuri-s-vetchinoj-350g.png',
+        title: t('hachapuri2.title'),
+        alt: 'hachapuri-s-vetchinoj-350g',
+        desc: t('hachapuri2.desc'),
+        price: t('hachapuri2.price'),
         padding: 10,
         layout: 'intrinsic',
         quality: 75,
@@ -1009,6 +1107,14 @@ const Projects: NextPage = () => {
             <li>
               <a
                 className={styles.links}
+                href="#salad"
+              >
+                {t('menu.salad')}
+              </a>
+            </li>
+            <li>
+              <a
+                className={styles.links}
                 href="#bakery"
               >
                 {t('menu.bakery')}
@@ -1025,27 +1131,19 @@ const Projects: NextPage = () => {
             <li>
               <a
                 className={styles.links}
-                href="#salad"
-              >
-                {t('menu.salad')}
-              </a>
-            </li>
-            <li>
-              <a
-                className={styles.links}
                 href="#pizza"
               >
                 {t('menu.pizza')}
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 className={styles.links}
                 href="#semiFinishedProducts"
               >
                 {t('menu.semiFinishedProducts')}
               </a>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>
@@ -1131,6 +1229,26 @@ const Projects: NextPage = () => {
       </main>
       <h1
         className={styles.mainTitle}
+        id="salad"
+      >
+        {t('menu.salad')}
+      </h1>
+      <main className={styles.projects}>
+        {salad.map((project, index) => (
+          <ProjectItem
+            key={project.id}
+            rootProps={{
+              className: 'kochevnikAnimation kochevnikAnimation--fadeInUp',
+              style: {
+                '--kochevnik-animation-delay-factor': index + 1,
+              } as CSSProperties,
+            }}
+            {...project}
+          />
+        ))}
+      </main>
+      <h1
+        className={styles.mainTitle}
         id="bakery"
       >
         {t('menu.bakery')}
@@ -1171,26 +1289,6 @@ const Projects: NextPage = () => {
       </main>
       <h1
         className={styles.mainTitle}
-        id="salad"
-      >
-        {t('menu.salad')}
-      </h1>
-      <main className={styles.projects}>
-        {salad.map((project, index) => (
-          <ProjectItem
-            key={project.id}
-            rootProps={{
-              className: 'kochevnikAnimation kochevnikAnimation--fadeInUp',
-              style: {
-                '--kochevnik-animation-delay-factor': index + 1,
-              } as CSSProperties,
-            }}
-            {...project}
-          />
-        ))}
-      </main>
-      <h1
-        className={styles.mainTitle}
         id="pizza"
       >
         {t('menu.pizza')}
@@ -1209,7 +1307,7 @@ const Projects: NextPage = () => {
           />
         ))}
       </main>
-      <h1
+      {/* <h1
         className={styles.mainTitle}
         id="semiFinishedProducts"
       >
@@ -1228,7 +1326,7 @@ const Projects: NextPage = () => {
             {...project}
           />
         ))}
-      </main>
+      </main> */}
     </>
   );
 };
