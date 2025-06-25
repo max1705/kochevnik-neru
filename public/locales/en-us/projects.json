@@ -62,12 +62,12 @@
   "firstСourse8": {
     "title": "Okroshka 400g",
     "desc": "Beef meat, boiled sausage, fresh cucumbers, radishes, potatoes, egg, mayonnaise, greens",
-    "price": "280 Rub"
+    "price": "320 Rub"
   },
   "secondСourse1": {
     "title": "Buuz 1pc 75g",
     "desc": "Beef, pork, onion",
-    "price": "70 Rub"
+    "price": "85 Rub"
   },
   "secondСourse2": {
     "title": "Tsuivan 300g",
@@ -257,7 +257,7 @@
   "semiFinishedProducts1": {
     "title": "Buuz frozen 75g",
     "desc": "",
-    "price": "65 Rub"
+    "price": "78 Rub"
   },
   "semiFinishedProducts2": {
     "title": "Pelmeni frozen 1kg",
